@@ -1,13 +1,13 @@
 import React from 'react';
 import Login from './pages/Login';
 import Receitas from './pages/Receitas';
-import AddReceitas from './pages/AddReceitas';
+import FormReceitas from './pages/FormReceitas';
 
 
 function App() {
 
   return (
-    <AddReceitas />
+    <FormReceitas />
   )
 }
 
