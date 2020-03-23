@@ -6,6 +6,7 @@ import Contact from '../../components/Contact'
 import Input from '../../components/Input'
 import TextArea from '../../components/TextArea'
 import Select from '../../components/Select'
+import InputSubmit from '../../components/InputSubmit'
 
 
 function AddReceitas() {
@@ -43,11 +44,11 @@ function AddReceitas() {
                 <LabelDescricao>Descrição</LabelDescricao>
                 <TextArea
                     name="Nome da receita"
-                    placeholder="teste"
+                    placeholder=""
                     value={descricaoReceita}
                     onChange={e => setDescricaoReceita(e.target.value)} >
                 </TextArea>
-
+                <InputSubmit type="submit" value="Criar receita"/>
             </AddReceitaArea>
 
         </>)

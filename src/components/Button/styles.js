@@ -7,7 +7,7 @@ export const ButtonContainer = styled.button`
     border-radius: 5px;
     align-self: flex-end;
     border: none;
-    
+
 `;
 
 export const ButtonText = styled.span`

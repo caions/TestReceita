@@ -1,12 +1,14 @@
 import styled from 'styled-components'
 
 export const SelectText = styled.select`
-    width: 35%;
-    height: 35px;
-    border-radius: 20px;
+    height: 34px;
     margin-top: 12px;
+    border-radius: 30px;
+    outline: none;
     background: #d9d9d9;
+    text-indent: 35px;
+    width: 282px;
     color: gray;
-    text-indent: 12px;
+    border-style: none;
 
 `;

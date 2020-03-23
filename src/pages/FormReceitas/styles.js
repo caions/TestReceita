@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
 export const AddReceitaArea = styled.span`
+
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    background-color: #FFF;
+    width: 40%;
+    padding: 45px 80px;
     margin: auto;
-    margin-top: 50px;
-    width: 70%;
-    padding: 30px 10px;
+    margin-top: 30px;
+    background: #FFF
     
-`; 
+`;
 
 export const LabelDescricao = styled.span`
     
