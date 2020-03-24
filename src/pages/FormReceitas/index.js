@@ -36,9 +36,9 @@ function AddReceitas() {
                     onChange={e => setCategoriaReceita(e.target.value)}
                     options={[
                         { value: 'default', label: 'Escolha a categoria da receita' },
-                        { value: 'Francesa', label: 'Francesa' },
-                        { value: 'italiana', label: 'italiana' },
-                        { value: 'Brasileira', label: 'Brasileira' },
+                        { value: 'Pizza', label: 'Pizza' },
+                        { value: 'Sanduiche', label: 'Sanduiche' },
+                        { value: 'Japonesa', label: 'Japonesa' },
                     ]}
                 />
                 <LabelDescricao>Descrição</LabelDescricao>
