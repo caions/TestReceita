@@ -1,15 +1,16 @@
 import React from 'react';
-import {NavBarArea, LogoText,NavLink} from './styles.js'
+import { Link } from 'react-router-dom'
+import { NavBarArea, LogoText, NavLink } from './styles.js'
 
-function NavBar () {
+function NavBar() {
     return (
         <>
-        <NavBarArea>
-        <LogoText>DEVFood</LogoText>
-        <NavLink>Receitas</NavLink>
-        <NavLink>Minhas Receitas</NavLink>
-        <NavLink>Adicionar Receitas</NavLink>
-        </NavBarArea>
+            <NavBarArea>
+                <Link to='/receitas'>  <LogoText>DEVFood</LogoText> </Link>
+                <Link to='/receitas'>   <NavLink>Receitas</NavLink> </Link>
+                <Link to='/minhas_receitas'><NavLink>Minhas Receitas</NavLink></Link>
+                <Link to='/receitas/nova'><NavLink>Adicionar Receitas</NavLink></Link>
+            </NavBarArea>
         </>
     )
 

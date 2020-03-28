@@ -1,13 +1,21 @@
 import React from 'react';
-import Login from './pages/Login';
-import Receitas from './pages/Receitas';
-import FormReceitas from './pages/FormReceitas';
-import MinhasReceitas from './pages/MinhasReceitas'
+import { Router } from 'react-router-dom';
+import Routes from './routes/'
+
+ // Cria historico de rotas
+import { createBrowserHistory } from 'history';
+
+
+const history = createBrowserHistory();
 
 function App() {
 
   return (
-    <MinhasReceitas />
+    <Router history={history}>
+        <Routes />
+    </Router>
+
+      
   )
 }
 

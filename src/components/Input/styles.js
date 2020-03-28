@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-/*
+
 export const InputText = styled.input`
 
     padding: 5px 10px;
@@ -9,8 +9,8 @@ export const InputText = styled.input`
     outline: none;
     
 `;
-*/
 
+/*
 export const InputText = styled.input`
     height: 35px;
     border-radius: 30px;
@@ -19,4 +19,4 @@ export const InputText = styled.input`
     color: gray;
     outline: none;
     border-style: none;
-`;
+`;*/
